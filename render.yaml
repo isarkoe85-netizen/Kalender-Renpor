@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kalender-tim
+    runtime: docker
+    plan: free
+    healthCheckPath: /
